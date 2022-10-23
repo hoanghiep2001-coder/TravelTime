@@ -1,0 +1,155 @@
+::-webkit-scrollbar {
+    width: 6px;
+    height: 50px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(167, 165, 165);
+    border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(94, 92, 92);
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-left {
+    color: rgb(207, 207, 207);
+    background-color: rgb(27, 27, 27);
+    height: 700px;
+    overflow: hidden;
+    overflow-y: auto;
+    flex: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+.container-part-nextline {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease-out;
+    padding: 10px;
+}
+
+.container-part-nextline.active {
+    background-color: rgb(41, 41, 211) !important;
+    padding: 10px;
+    color: #fff;
+}
+
+.container-part-nextline:hover {
+    color: #fff;
+    background: rgba(61, 61, 61, 0.5);
+}
+
+.container-part-nextline .relative {
+    position: relative;
+    color: #fff;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.container-part-nextline .relative:after {
+    position: absolute;
+    content: "";
+    border: 5px solid;
+    border-color: #fff transparent transparent transparent;
+    right: -24px;
+    top: 8px;
+}
+
+.container-admin-left-part {
+    padding: 10px 0;
+
+}
+
+.container-admin-left-part.active {
+    padding-top: 0;
+}
+
+ul.product-container-list {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.product-container-list h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.product-container-item a {
+    color: rgb(207, 207, 207);
+}
+
+.product-container-item a:hover {
+    color: #fff;
+}
+
+.container-admin-left-part:first-child {
+    padding-bottom: 0;
+}
+
+.container-admin-left-part:last-child {
+    padding-top: 0;
+}
+
+.container-part-nextline p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.product-container-item {
+    cursor: pointer;
+    padding-left: 12px;
+    line-height: 26px;
+    transition: .3s ease-out;
+}
+
+.product-container-item:hover {
+    color: #fff;
+
+}
+
+.container {
+    margin-left: 200px;
+}
+
+.container__nav {
+    margin-top: 12px;
+}
+
+.container__nav-list {
+    display: flex;
+    padding-top: 12px;
+}
+
+.container__nav-item a {
+    padding: 12px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 8px;
+    border-radius: 10px;
+    transition: .3s ease-out;
+}
+
+.container__nav-item a.home {
+    background-color: rgb(185, 61, 61);
+    color: #fff;
+
+}
+
+.container__nav-item a.home:hover {
+    background-color: rgb(214, 108, 108);
+    
+}
+
+.container__nav-item a.active {
+    background-color: rgb(57, 202, 202);
+    color: #fff;
+}

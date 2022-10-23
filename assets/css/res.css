@@ -1,0 +1,807 @@
+/* PC */
+@media (min-width: 1114px) {
+    .hide-on-pc {
+        display: none;
+    }
+
+    /* proposals */
+    .body-container-content-hover {
+        height: 384px;
+    }
+
+    /* beaches */
+    .body-beaches-book {
+        margin-top: 0;
+    }
+}
+
+/* PC low resolution */
+@media (min-width: 1024px) and (max-width: 1113px) {
+    .hide-on-pc {
+        display: none;
+    }
+
+    /* header */
+    header {
+        height: 94px;
+    }
+
+    .header-nav-items {
+        padding: 20px 15px;
+        font-size: 1.2rem;
+    }
+
+    header.sticky {
+        height: 58px;
+    }
+
+    header.sticky .header-nav-items {
+        padding: 20px 15px;
+        font-size: 1.2rem;
+    }
+
+    /* header book */
+    .header-booking-btn {
+        padding: 12px 14px ;
+        font-size: 1.2rem;
+    }
+
+    /* Proposals */
+    .body-container-h2::after {
+        left: 404px;
+    }
+
+    .body-container-content-hover {
+        height: 312px;
+    }
+
+    .body-container-hover-h3 {
+        margin-top: 64px;
+    }
+
+    /* holiday */
+    .body-container-holiday-heading h3:last-child::after {
+        left: 225px;
+    }
+
+    /* beaches */
+    .body-beaches-heading h3::after {
+        top: 92px;
+        left: 1px;
+    }
+
+    .tablet__beaches-book {
+        display: none;
+    }
+
+    .body-beaches-img-item img {
+        height: 490px;
+    }
+
+    .body-beaches-services-col.col.l-4 {
+        display: flex;
+    }
+
+    /* promotions */
+    .promotions-heading h3::after {
+        left: 44.5%;
+    }
+
+    .promotions-underline.flex {
+        font-size: 1.2rem;
+    }
+
+    .promotions-after-second::after {
+        left: 85px;
+    }
+
+    .promotions-flex-price {
+        font-size: 2.0rem;
+    }
+
+    .promotions-flex-price span {
+        font-size: 1.4rem;
+    }
+
+    /* footer  */ 
+    .footer-keep-in-touch-h3 {
+        font-size: 3.0rem;
+    }
+
+    .footer-keep-in-touch-input {
+        margin-top: 0;
+    }
+
+    .footer-keep-in-touch-link {
+        padding: 10px 20px;
+        background-color: #14b9d5;
+        color: #fff;
+        border-radius: 20px;
+        margin-left: 20px;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        margin-top: 12px;
+        display: inline-block;
+    }
+
+    .footer-ending {
+        padding: 16px 15px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    /* header */
+    header {
+        display: flex;
+    }
+
+    .header__container {
+        display: flex;
+    }
+
+    .header-logo {
+        display: block;
+    }
+
+    .tablet__header-icon {
+        padding: 12px;
+        font-size: 2.4rem;
+        color: #fff;
+    }
+
+    /* header bars */
+    .tablet__header-bars-container {
+        position: fixed;
+        background-color: #303030;
+        top: 0;
+        right: -350px;
+        transition: 0.5s ease-out;
+        display: block;
+        animation: openTabletNav 0.5s ease-out;
+        overflow: hidden;  
+        overflow-y: auto;  
+        max-height: 100%; 
+    }
+
+    @keyframes openTabletNav {
+        from {
+            opacity: 0;
+            right: -350px;
+        } to {
+            opacity: 1;
+            right: 0;
+        }
+    }
+
+    .tablet__header-bars-container.close {
+        right: 0;
+    }
+
+    .tablet__close-img {
+        width: 30px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+
+
+    .tablet__header-bars-content {
+        padding: 40px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    .tablet__header-bars-list a {
+        font-size: 2.2rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: 20px 0;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .tablet__pages-item a,
+    .tablet__about-us-item a,
+    .tablet__shop-item a,
+    .tablet__packages-list a{
+        padding-left: 20px;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .tablet__pages-about-us-item a,
+    .tablet__packages-item a{
+        margin: 12px 0;
+    }
+
+    .tablet__pages-about-us-list,
+    .tablet__tour-packages-list {
+        padding-left: 30px;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+    }
+
+
+    .tablet__tour-package-item {
+        margin: 12px 0;
+    }
+
+
+
+    /* container background */
+    .container {
+        background-position: center;
+    }
+
+    .container-findbar-input {
+        text-overflow: ellipsis;
+        width: 180px;
+    }
+
+    .container-findbar-with-search-section-item {
+        padding: 0 22px;
+    }
+
+    /* proposals */
+    .body-container-h2::after {
+        left: 235px;
+    }
+
+    .body-container-content-hover {
+        height: 645px;
+        top: -645px;
+    }
+
+    .body-container-hover-h3 {
+        margin-top: 230px;
+    }
+
+    /* holiday */
+
+    .body-container-holiday-link {
+        top: 50%;
+        bottom: 50%;
+    }
+    /* beaches */
+    .tablet__beaches-book {
+        margin: 0 0 20px 0;
+    }
+
+    .body-beaches-dots {
+        left: 30%;
+        right: 30%;
+    }
+
+    .body-beaches-services-col {
+        padding-bottom: 28px;
+    }
+
+    .body-beaches-services-col:last-child {
+        padding-bottom: 0;
+    }
+
+    /* Discover */
+    .discover-container {
+        padding-top: 25px;
+    }
+
+    /* Promotions */
+    .promotions-heading h3::after {
+        left: 41.5%;
+    }
+
+    .promotions-col {
+        padding: 12px 0;
+    }
+
+    /* footer */
+    .footer-keep-in-touch-row.row {
+        padding: 60px 0;
+    }
+
+    .footer-keep-in-touch-col.col.l-3 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        text-align: start;
+    }
+
+    .footer-keep-in-touch-col.col.l-4 {
+        text-align: start;
+        padding-bottom: 40px;
+        padding-top: 0px;
+    }
+
+    .footer-keep-in-touch-input {
+        width: 498px;
+    }
+
+    .footer-keep-in-touch-link {
+        padding: 10px 40px;
+    }
+
+    .footer-ending {
+        padding: 16px 24px;
+        font-size: 1.0rem;
+    }
+
+    .footer-col-heading {
+        text-align: center;
+    }
+
+    .footer-col-list {
+        padding-left: 26px;
+    }
+}
+
+
+
+/* IPhone 6/7/8 Plus */
+@media (min-width: 400px) and (max-width:740px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    /* header */
+    header {
+        display: flex;
+    }
+
+    .header__container {
+        display: flex;
+    }
+
+    .header__container.grid.wide {
+        max-width: 390px;
+    }
+
+    .header-logo {
+        display: block;
+    }
+
+    .tablet__header-icon {
+        padding: 12px;
+        font-size: 2.4rem;
+        color: #fff;
+    }
+
+    /* header bars */
+    .tablet__header-bars-container {
+        position: fixed;
+        background-color: #303030;
+        top: 0;
+        right: -350px;
+        transition: 0.5s ease-out;
+        display: block;
+        animation: openTabletNav 0.5s ease-out;
+        overflow: hidden;  
+        overflow-y: auto;  
+        max-height: 100%; 
+    }
+
+    @keyframes openTabletNav {
+        from {
+            opacity: 0;
+            right: -350px;
+        } to {
+            opacity: 1;
+            right: 0;
+        }
+    }
+
+    .tablet__header-bars-container.close {
+        right: 0;
+    }
+
+    .tablet__close-img {
+        width: 30px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+
+
+    .tablet__header-bars-content {
+        padding: 20px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    .tablet__header-bars-list a {
+        font-size: 2.2rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: 20px 0;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .tablet__pages-item a,
+    .tablet__about-us-item a,
+    .tablet__shop-item a,
+    .tablet__packages-list a{
+        padding-left: 20px;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .tablet__pages-about-us-item a,
+    .tablet__packages-item a{
+        margin: 12px 0;
+    }
+
+    .tablet__pages-about-us-list,
+    .tablet__tour-packages-list {
+        padding-left: 30px;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+    }
+
+
+    .tablet__tour-package-item {
+        margin: 12px 0;
+    }
+
+    /* container */
+    .container {
+        background-position: center;
+    }
+
+    .container-list-item {
+        margin: 8px 20px;
+    }
+
+    /* proposals */
+    .body-container-h2::after {
+        left: 120px;
+    }
+
+    .body-container-content {
+        padding: 16px;
+    }
+
+    .body-container-content-p img {
+        top: 30px;
+    }
+
+    .body-container-content-global:hover .body-container-content-hover {
+
+    }
+
+    /* holiday */
+    .body-container-holiday-heading h3:last-child::after {
+        left: 5px;
+        top: 232px;
+    }
+
+    .body-container-holiday-nothing.col.l-1.m-0 {
+        padding: 0;
+    }
+    
+    .body-container-holiday-btn {
+        margin-top: 20px;
+    }
+
+    /* beaches */
+    .body-beaches-container.grid.wide {
+        max-width: 390px;
+    }
+
+    .body-beaches-book {
+        margin: 15px 0;
+    }
+
+    .body-beaches-dots {
+        left: 20%;
+        right: 20%;
+    }
+
+    .body-beaches-dot-item {
+        width: 35px;
+    }
+
+    .body-beaches-services-col.col.l-4.m-12 {
+        margin: 12px 0;
+    }
+
+    /* promotions */
+    .promotions-container.grid.wide {
+        max-width: 390px;
+    }
+
+    .promotions-heading h3::after {
+        left: 37%;
+    }
+
+    .promotions-col.col.l-4.m-12 {
+        margin: 12px 0;
+    }
+
+    /* footer */
+    .footer-keep-in-touch.grid.wide {
+        max-width: 390px;
+    }
+
+    .footer-keep-in-touch-col {
+        text-align: start;
+    }
+
+    .footer-keep-in-touch-col.col.l-3.m-12 {
+        padding-bottom: 20px;
+    }
+
+    .footer-keep-in-touch-col.col.l-4.m-12 {
+        padding-top: 0;
+    }
+
+    .footer-keep-in-touch-input {
+        width: 280px;
+    }
+
+    .footer-keep-in-touch-link {
+        padding: 10px 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .footer-col-col.col.l-4.m-4.c-12 {
+        margin: 12px 0;
+    }
+
+    .footer-ending {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-ending-box {
+        padding: 8px;
+    }   
+    
+    .footer-ending-last {
+        padding: 8px;
+    }
+}
+
+/* IPhone 6/7/8/X */
+@media (max-width: 399px) {
+    .grid.wide {
+        max-width: 350px;
+    }
+
+    .hide-on-X {
+        display: none;
+    }
+
+    /* header */
+    header {
+        display: flex;
+    }
+
+    .header__container {
+        display: flex;
+    }
+
+    .header-logo {
+        display: block;
+    }
+
+    .tablet__header-icon {
+        padding: 12px;
+        font-size: 2.4rem;
+        color: #fff;
+    }
+
+    /* header bars */
+    .tablet__header-bars-container {
+        position: fixed;
+        background-color: #303030;
+        top: 0;
+        right: -350px;
+        transition: 0.5s ease-out;
+        display: block;
+        animation: openTabletNav 0.5s ease-out;
+        overflow: hidden;  
+        overflow-y: auto;  
+        max-height: 100%; 
+    }
+
+    @keyframes openTabletNav {
+        from {
+            opacity: 0;
+            right: -350px;
+        } to {
+            opacity: 1;
+            right: 0;
+        }
+    }
+
+    .tablet__header-bars-container.close {
+        right: 0;
+    }
+
+    .tablet__close-img {
+        width: 30px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+
+
+    .tablet__header-bars-content {
+        padding: 10px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    .tablet__header-bars-list a {
+        padding-left: 10px ;
+        font-size: 2.0rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: 20px 0;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .tablet__pages-item a,
+    .tablet__about-us-item a,
+    .tablet__shop-item a,
+    .tablet__packages-list a{
+        padding-left: 30px;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .tablet__pages-about-us-item a,
+    .tablet__packages-item a{
+        margin: 12px 0;
+    }
+
+    .tablet__pages-about-us-list,
+    .tablet__tour-packages-list {
+        padding-left: 30px;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+    }
+
+
+    .tablet__tour-package-item {
+        margin: 12px 0;
+    }
+
+    /* container */
+    .container-content-h1 {
+        font-size: 4.8rem;
+    }
+
+    .container {
+        background-position: center;
+    }
+
+    .container-list-item {
+        margin: 8px 20px;
+    }
+
+    .container-content-p {
+        margin-top: 20px;
+    }
+
+    /* proposals */
+    .body-container-h2 {
+        font-size: 3.2rem;
+    }
+
+    .body-container-h2::after {
+        left: 98px;
+        width: 238px;
+    }
+
+    .body-container-content {
+        padding: 16px;
+    }
+
+    .body-container-content-p img {
+        top: 30px;
+    } 
+
+    .body-container-content-global:hover .body-container-content-hover {
+        top: -50px;
+        height: 100%;
+    }
+
+    .body-container-content-hover {
+
+    }
+
+    /* holiday */
+    .body-container-holiday-heading h3:last-child::after {
+        top: 230px;
+        left: 12px;
+    }
+    
+    /* beaches */
+    .body-beaches-book {
+        margin-bottom: 20px;
+        margin-top: 8px;
+    }
+
+    .body-beaches-dots {
+        left: 12%;
+        right: 12%;
+    }
+
+    .body-beaches-services-col.col.l-4.m-12 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    /* promotions */
+    .promotions-heading h3::after {
+        left: 34%;
+    }
+
+    /* footer */
+    .footer-keep-in-touch-col.col.l-4.m-12.c-12 {
+        padding-top: 0;
+    }
+
+    .footer-keep-in-touch-col.col.l-3.m-12.c-12 {
+        padding-bottom: 0;    
+    }
+
+    .footer-keep-in-touch-link {
+        display: inline-block;
+    }
+
+    .footer-ending {
+        display: block;
+    }
+
+    .footer-ending h3 {
+        padding: 4px 0;
+    }
+}
+
+/* IP 5/SE */
+@media (max-width: 346px) {
+    .grid.wide {
+        max-width: 300px;
+    }
+    /* proposal */
+    .body-container-h2::after {
+        left: 35px;
+    }
+
+    /*  beaches */
+    .body-beaches-heading h3::after {
+        top: 90px;
+        left: 5px;
+    }
+
+    .body-container-content-heading::after {
+        width: 268px;
+    }
+
+    /* promotions */
+    .promotions-col.col.l-4.m-12 {
+        margin: 12px 0;
+    }
+
+    .promotions-flex-price span {
+        display: none;
+    }
+}
